@@ -1,4 +1,50 @@
-@import '_vars';
-@import '_global';
-@import '_fonts';
+@import "_vars";
+@import "_global";
+@import "_fonts";
 
+.header__top {
+  background-color: #eef1f3;
+}
+
+.header__top-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  font-family: "Quicksand", sans-serif;
+  span {
+    color: #0674ec;
+  }
+}
+.header__btn {
+  background-color: $button;
+  a {
+    font-size: 14px;
+    color: #fff;
+  }
+  padding: 10px 22px 9px;
+  border-radius: 18px;
+  //   margin: 32px 217px 32px auto;
+}
+.header__avatar {
+  background-color: #7c7979;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.header__personal-name {
+  a {
+    font-weight: 500;
+  }
+}
+.header__personal-cash {
+  color: $button;
+}

@@ -215,6 +215,11 @@
   margin-left: 30px;
   margin-right: 30px;
   padding: 40px 35px 48px 35px;
+  &:hover {
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    cursor: pointer;
+  }
   &-icon {
     margin-bottom: 40px;
   }
@@ -230,8 +235,4 @@
     line-height: 30px;
     font-size: 13px;
   }
-}
-.features__item-shadow {
-  box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
-  border-radius: 4px;
 }
